@@ -1,0 +1,28 @@
+html, body, tr, td, hr {
+  font-family: monospace, monospace;
+  background-color: #ffffff;
+  color: #000000;
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  max-width: 800px;
+  margin: auto;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #555555;
+}
+
+a:active {
+  color: #000000;
+}
+
+a:hover {
+  color: #999999;
+}
