@@ -6,7 +6,7 @@ import markdown
 
 const
   TemplateDir = @["./templates"]
-  PublicDir = "./public"
+  PublicDir = "./docs"
 
 
 type
@@ -119,6 +119,7 @@ proc createIndex(posts: seq[Post]) =
 
 proc createPosts(posts: seq[Post]) =
   for post in posts.filter(x => x.frontMatter.public == true):
+    echo fmt" - generating post: {post.frontMatter.title}"
     let context = newContext(searchDirs=TemplateDir)
     context["title"] = post.frontMatter.title
     context["body"] = post.body

@@ -9,5 +9,5 @@
 - [x] template for posts
 - [x] parser for yaml head
 - [x] parser for markdown format
-- [] CLI
-- [] github actions yaml
+- [ ] CLI
+- [ ] github actions yaml

@@ -1,9 +1,11 @@
 html, body, tr, td, hr {
-  font-family: monospace, monospace;
+  font-family: "fira mono", "source code pro", monospace;
   background-color: #ffffff;
   color: #000000;
   max-width: 800px;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 article {
